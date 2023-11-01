@@ -11,11 +11,6 @@ The search string used to identify the AD object.
 .EXAMPLE
 Get-ADObjectAccessControlList -SearchString "Admin"
 
-.NOTES
-File Name      : xxxx.ps1
-Author         : Your Name
-Prerequisite   : PowerShell V2
-Copyright 2023 : Your Organization
 #>
 function Get-ADObjectACL {
     param (
